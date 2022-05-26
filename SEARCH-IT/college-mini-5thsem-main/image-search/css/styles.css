@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  display: block;
+  margin: auto;
+  max-height: 500px;
+  align-items: center;
+  text-align: center;
+}
+.back {
+  font-size: x-large;
+  color: #2c2c2c;
+  cursor: pointer;
+  text-decoration: none;
+}
+nav {
+  background: #8bffb5;
+  color: #fff;
+  padding: 1rem 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+header > img {
+  max-width: 200px;
+  max-height: 200px;
+}
+form {
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+form > input {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  box-shadow: rgba(151, 255, 160, 0.16) 0px 1px 4px,
+    rgb(152, 255, 183) 0px 0px 0px 3px;
+  border: none;
+  border-radius: 1px;
+  width: 300px;
+  height: 30px;
+}
+
+form > input:focus {
+  outline: none;
+  background-color: #c2fbd7;
+}
+
+form > button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+form > button:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+#loadingImage {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.images {
+  column-count: 3;
+}
+
+img {
+  width: 80%;
+  border-width: 10px;
+  border-color: #c2fbd7;
+  border-radius: 10px;
+}
